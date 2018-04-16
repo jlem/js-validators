@@ -1,0 +1,9 @@
+{
+  "name": "jlem-js-validators",
+  "version": "1.0.0",
+  "description": "A library with various validation functions",
+  "main": "dist/index.js",
+  "repository": "https://github.com/jlem/js-validators",
+  "author": "Jon <agmlauncher@gmail.com>",
+  "license": "MIT"
+}
