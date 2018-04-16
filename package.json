@@ -5,5 +5,19 @@
   "main": "dist/index.js",
   "repository": "https://github.com/jlem/js-validators",
   "author": "Jon <agmlauncher@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "jest",
+    "tdd": "jest -o --watch",
+    "prepublish": "build"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "jest": "22.4.3"
+  },
+  "dependencies": {
+    "lodash": "4.17.5"
+  }
 }
