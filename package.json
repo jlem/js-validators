@@ -1,6 +1,6 @@
 {
   "name": "jlem-js-validators",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library with various validation functions",
   "main": "dist/index.js",
   "repository": "https://github.com/jlem/js-validators",
